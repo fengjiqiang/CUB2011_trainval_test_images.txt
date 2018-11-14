@@ -36,5 +36,5 @@ def text_save(filename, data):#filename为写入txt文件的路径，data为要�
     file.close()
     print("保存文件成功") 
 
-# text_save("train_images.txt", train_images)
+# text_save("trainval_images.txt", train_images)
 text_save("test_images.txt", test_images)
